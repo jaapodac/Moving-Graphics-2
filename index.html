@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<head>
+    <title>Moving Graphics 2 Index file</title>
+   <!-- Author: J. Apodaca    -->
+   <!-- Date:   Mar 21, 2014 -->
+   <!-- File:   index.html -->
+   
+   <!-- Style specs are most often in the head -->
+   <!-- Add a little Style (external file) -->
+   <link rel="stylesheet" href="css/MovingGraphics2.css">
+   <meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+   <img id="rocket1" src="images/rocket4.jpg"  style="display:none" alt="My Rocket" width="254" height="199">
+   
+</head>
+<body>
+
+		 <!-- Display a button and provide a text division (div) for a result -->
+		 <p>
+		<button id="myButton1" onclick="DrawMe()"> <img src="images/kitty.gif"/> Draw It </button>
+		</p>
+		<p>
+	
+    
+    <div id="firstDiv">
+	<p>First Division</p>
+	<p>Some more text.</p></div>
+	<div id="container"></div>
+   
+	
+	<!-- First Code to begin drawing -->
+	<!-- All drawing on the canvas must be done inside a JavaScript -->
+	<canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;">
+    </canvas>
+<div id="container2"></div>
+<!-- JavaScripts are most often in the body -->
+<!-- Outside JavaScript -->
+<script src="js/MovingGraphics2.js"> </script>
+
+
+
+</body>
+</html>
